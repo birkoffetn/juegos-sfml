@@ -1,0 +1,435 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-msys
+ 
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri May 20 21:42:05 2022
+
+# Variables
+
+ 
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\brigido
+# environment
+LOCALAPPDATA = C:\Users\brigido\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4c30cd5f-94f9-47a7-bd69-c11712b236a3-sock
+# environment
+VSCODE_CWD = C:\Users\brigido\Documents\cpp\juegos-sfml
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 22
+# environment
+PSMODULEPATH = C:\Users\brigido\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_GIT_ASKPASS_EXTRA_ARGS = --ms-enable-electron-run-as-node
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3968_WXBIOIRWIKMPJRBN
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\brigido\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /c/Users/brigido/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /c/Users/brigido/Documents/cpp/juegos-sfml/sokoban
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+!C: = c:\Users\brigido\Documents\cpp\juegos-sfml\sokoban
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GIT_ASKPASS = c:\Program Files\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+# makefile (from 'main.d', line 1)
+MAKEFILE_LIST := Makefile GraphicLevel.d Level.d main.d
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 3968
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"125a9a608456aa5e8a25d0a18c7b1d68.es","_translationsConfigFile":"C:\\Users\\brigido\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\tcf.json","_cacheRoot":"C:\\Users\\brigido\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\brigido\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"C:\\Users\\brigido\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\brigido
+# default
+MAKECMDGOALS := all
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/c/Program Files/Microsoft VS Code/bin:/c/Program Files (x86)/AMD/ATI.ACE/Core-Static:/usr/bin:/mingw64/bin
+# environment
+COMPUTERNAME = NEOIDEAS
+# default
+MAKEFILES := 
+# environment
+VSCODE_GIT_IPC_HANDLE = \\.\pipe\vscode-git-2fb69eb896-sock
+# environment
+VSCODE_GIT_ASKPASS_NODE = C:\Program Files\Microsoft VS Code\Code.exe
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 3)
+DEPENDENCIES = $(SOURCES:.cpp=.d)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 7)
+LDLIBS = -lsfml-graphics -lsfml-window -lsfml-system
+# environment
+VSCODE_GIT_ASKPASS_MAIN = c:\Program Files\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+# environment
+LOGONSERVER = \\NEOIDEAS
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = brigido
+ 
+# environment
+TERM_PROGRAM = vscode
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 2)
+OBJECTS = $(SOURCES:.cpp=.o)
+# environment
+USERDOMAIN = neoideas
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+FP_NO_HOST_CHECK = NO
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = neoideas
+# environment
+NUMBER_OF_PROCESSORS = 2
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\brigido\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+COLORTERM = truecolor
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/brigido
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /c/Users/brigido/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\397f59708ca70d2e3c76f16a1cb17dfc-1.67.1-main-sock
+# environment
+TERM = cygwin
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+ 
+# makefile (from 'Makefile', line 4)
+TARGET = sokoban
+# environment
+SESSIONNAME = Console
+ 
+# environment
+ 
+VSCODE_CLI = 1
+ 
+# environment
+ 
+ELECTRON_NO_ATTACH_CONSOLE = 1
+ 
+# makefile (from 'Makefile', line 6)
+CXXFLAGS = -ggdb -Wall -Wextra -std=c++11
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+PROCESSOR_REVISION = 0001
+# makefile (from 'Makefile', line 8)
+CC = $(CXX)
+# makefile (from 'Makefile', line 1)
+SOURCES = $(wildcard *.cpp)
+# environment
+TERM_PROGRAM_VERSION = 1.67.1
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 22 Model 0 Stepping 1, AuthenticAMD
+# variable set hash-table stats:
+# Load=110/1024=11%, Rehash=0, Collisions=11/162=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2733876293, inode 1125899906842863): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.d: %.cpp
+#  recipe to execute (from 'Makefile', line 19):
+	$(CXX) -MM $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+GraphicLevel.d: GraphicLevel.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'GraphicLevel'
+ 
+#  Last modified 2022-05-20 21:42:04.7347977
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CXX) -MM $< -o $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 20:25:39.0579202
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Level.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 21:14:30.6891919
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	rm -f $(DEPENDENCIES) $(TARGET) $(OBJECTS)
+
+Level.o: Level.cpp Level.hpp
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 21:14:38.9303122
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: sokoban
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+
+run: sokoban
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	./$(TARGET)
+
+# Not a target:
+GraphicLevel.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 20:42:42.1982828
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Level.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 20:43:33.6463075
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 20:49:38.9312683
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.cpp Level.hpp GraphicLevel.hpp
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 20:53:47.5148309
+#  File has been updated.
+#  Successfully updated.
+
+Level.d: Level.cpp
+#  Implicit rule search has been done.
+ 
+#  Implicit/static pattern stem: 'Level'
+#  Last modified 2022-05-20 21:42:04.2397712
+#  File has been updated.
+#  Successfully updated.
+ 
+#  recipe to execute (from 'Makefile', line 19):
+ 
+	$(CXX) -MM $< -o $@
+
+sokoban: GraphicLevel.d Level.d main.d GraphicLevel.o Level.o main.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-05-20 21:14:39.670858
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := sokoban
+# automatic
+# * := 
+# automatic
+# < := GraphicLevel.d
+# automatic
+# + := GraphicLevel.d Level.d main.d GraphicLevel.o Level.o main.o
+# automatic
+# % := 
+# automatic
+# ^ := GraphicLevel.d Level.d main.d GraphicLevel.o Level.o main.o
+# automatic
+# ? := GraphicLevel.d Level.d main.d
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/18=17%
+#  recipe to execute (from 'Makefile', line 16):
+	$(CC) $(CXXFLAGS) -o $(TARGET) $(OBJECTS) $(LDLIBS)
+
+main.d: main.cpp
+#  Implicit rule search has been done.
+ 
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-05-20 21:42:03.7837457
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CXX) -MM $< -o $@
+
+# Not a target:
+GraphicLevel.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 20:53:20.4332564
+#  File has been updated.
+#  Successfully updated.
+
+GraphicLevel.o: GraphicLevel.cpp GraphicLevel.hpp Level.hpp
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 20:53:37.634072
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=18/1024=2%, Rehash=0, Collisions=0/62=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 29 / storage = 252 B / avg = 8 B
+# current buf: size = 8162 B / used = 252 B / count = 29 / avg = 8 B
+
+# strcache performance: lookups = 73 / hit rate = 60%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=0/73=0%
+# Finished Make data base on Fri May 20 21:42:05 2022
+
+ 

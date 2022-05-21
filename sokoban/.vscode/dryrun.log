@@ -1,0 +1,17 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/c/Users/brigido/Documents/cpp/juegos-sfml/sokoban'
+g++ -MM main.cpp -o main.d
+ 
+g++ -MM Level.cpp -o Level.d
+ 
+g++ -MM GraphicLevel.cpp -o GraphicLevel.d
+ 
+g++ -ggdb -Wall -Wextra -std=c++11   -c -o GraphicLevel.o GraphicLevel.cpp
+ 
+g++ -ggdb -Wall -Wextra -std=c++11   -c -o Level.o Level.cpp
+ 
+g++ -ggdb -Wall -Wextra -std=c++11   -c -o main.o main.cpp
+ 
+g++ -ggdb -Wall -Wextra -std=c++11 -o sokoban GraphicLevel.o Level.o main.o -lsfml-graphics -lsfml-window -lsfml-system
+make: Leaving directory '/c/Users/brigido/Documents/cpp/juegos-sfml/sokoban'
+ 
