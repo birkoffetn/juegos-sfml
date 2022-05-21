@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    Level level;
+    /*Level level;
     level.loadFromFile("assets/level.txt");
     char option;
     do
@@ -32,7 +32,7 @@ int main()
             level.move(Level::Right);
             break;
         }
-    } while (option != 'q');
+    } while (option != 'q');*/
 
     GraphicLevel graphicLevel;
     graphicLevel.loadFromFile("assets/level.txt");
@@ -63,6 +63,8 @@ int main()
                     break;
                 case sf::Keyboard::Right:
                     graphicLevel.move(Level::Right);
+                    break;
+                default:
                     break;
                 }
             }
